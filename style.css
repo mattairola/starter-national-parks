@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+
+.high-rating {
+  color: #3ba17c;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.header-statement {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+
+
 body {
   margin: 0;
   font-size: 16px;
@@ -105,6 +121,12 @@ main {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.sorter {
+  width: 90%;
+  margin: 0 auto;
+  padding: 6px;
+}
+
 @media screen and (min-width: 600px) {
   main {
     grid-template-columns: repeat(2, 1fr);
@@ -121,4 +143,10 @@ main {
   main {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.sorter {
+  width: 90%;
+  margin: 0 auto;
+  padding: 6px;
 }
